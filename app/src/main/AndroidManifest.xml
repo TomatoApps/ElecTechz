@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.electechz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RegisterActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AdminHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AdminListActivity" />
+        <activity android:name=".AdminProductAddActivity" />
+        <activity android:name=".AdminProductEditActivity" />
+        <activity android:name=".AdminVacancyAddActivity" />
+        <activity android:name=".AdminVacancyEditActivity" />
+        <activity android:name=".AdminProgramAddActivity" />
+        <activity android:name=".AdminProgramEditActivity" />
+        <activity android:name=".UserHomeActivity" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".VacancyAndProgramDetailsActivity" />
+        <activity android:name=".ApplyActivity" />
+        <activity android:name=".AppActivity" />
+        <activity android:name=".UserListActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".FeedbackActivity"></activity>
+    </application>
+
+</manifest>

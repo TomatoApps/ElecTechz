@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/programContainer"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/topHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titleText"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/orderStatusPending"
+                    android:text="pending"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:gravity="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/orderStatusCompleted"
+                    android:text="accepted"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:gravity="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/categoryText"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/topHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/categoryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/locationText"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_below="@+id/userEmail"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/salaryDateText"
+            android:textSize="15dp"
+            android:gravity="end"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_below="@+id/userEmail"
+            android:layout_alignParentRight="true"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

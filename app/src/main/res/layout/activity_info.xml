@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/tools"
+        android:id="@+id/toolbar"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:fontFamily="sans-serif-light"
+            android:textSize="28dp"
+            android:text="Company Info"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="About ElecTechz"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus eget urna consectetur maximus. Maecenas ultricies, massa sit amet bibendum aliquet, sem elit interdum lorem, nec semper dolor dui finibus risus. Phasellus vel tortor eget dui scelerisque pretium. Pellentesque justo nibh, ornare id ante eu, sollicitudin egestas risus. Sed lacus ante, tristique nec turpis ut, rhoncus bibendum lorem. Pellentesque nulla mauris, tincidunt a placerat vitae, convallis vel risus. Cras ultricies massa fermentum eros varius luctus."
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="FAQs"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Question 1"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Answer 1"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Question 2"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Answer 2"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Question 3"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Answer 3"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

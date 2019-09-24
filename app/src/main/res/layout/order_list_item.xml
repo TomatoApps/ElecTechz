@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/programContainer"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/topHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/orderID"
+                android:text="Order ID: "
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/orderStatusPending"
+                    android:text="pending"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:gravity="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/orderStatusCompleted"
+                    android:text="completed"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:gravity="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/orderUser"
+            android:text="from: email"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/topHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/userCC"
+            android:text="CC: 0000 0000 0000 0000"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/orderUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/CCinfo"
+            android:layout_below="@+id/userCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/userExp"
+                android:text="Expiry: 00/0000"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/userCVV"
+                android:text="CVV: 000"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/productsTitle"
+            android:text="Products:"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/CCinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/productList"
+            android:text="item 1"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/productsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

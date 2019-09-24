@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/productContainer"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:src="@mipmap/defaultpicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/productName"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_toRightOf="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/productDescription"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_toRightOf="@+id/productImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/productPriceAndQuantity"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/productCategory"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

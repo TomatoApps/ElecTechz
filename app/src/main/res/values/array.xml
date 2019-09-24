@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="users">
+        <item>Customer</item>
+        <item>Employee</item>
+        <item>Trainee</item>
+    </string-array>
+
+    <string-array name="products">
+        <item>Automotive</item>
+        <item>Electrical</item>
+        <item>Construction</item>
+        <item>Plumbing</item>
+        <item>Soldering</item>
+    </string-array>
+
+    <string-array name="vacancies">
+        <item>Manager</item>
+        <item>Technician</item>
+        <item>Engineer</item>
+        <item>Analyst</item>
+    </string-array>
+
+    <string-array name="programs">
+        <item>Orientation</item>
+        <item>Onboarding</item>
+        <item>Mandatory</item>
+        <item>Skills Development</item>
+        <item>Products and Services</item>
+    </string-array>
+</resources>
