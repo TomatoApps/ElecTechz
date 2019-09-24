@@ -1,6 +1,6 @@
 # ElecTechz
 
-ElecTechz is an Android application that features an e-commerce store for electronic products and a job board for electricians.
+ElecTechz is an Android application that features an e-commerce store for electronic products and a jobs board for electricians.
 
 # Screenshots
 
